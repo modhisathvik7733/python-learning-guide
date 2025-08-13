@@ -1,0 +1,14 @@
+STUDENT REPORT
+==============================
+Name: Alice
+Age: 20
+Grade: 85.5
+--------------------
+Name: Bob
+Age: 21
+Grade: 92.0
+--------------------
+Name: Charlie
+Age: 19
+Grade: 78.5
+--------------------

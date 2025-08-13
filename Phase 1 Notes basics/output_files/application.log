@@ -1,0 +1,5 @@
+2024-01-15 10:30:25 INFO User alice logged in
+2024-01-15 10:35:10 WARNING Failed login attempt for user bob
+2024-01-15 10:40:15 ERROR Database connection failed
+2024-01-15 10:42:20 INFO Database connection restored
+2024-01-15 10:45:30 INFO User charlie logged in
