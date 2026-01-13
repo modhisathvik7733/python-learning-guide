@@ -1,0 +1,14 @@
+{
+  "app_name": "MyPythonApp",
+  "version": "1.0.0",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "myapp_db"
+  },
+  "features": {
+    "enable_logging": true,
+    "debug_mode": true,
+    "max_users": 2000
+  }
+}

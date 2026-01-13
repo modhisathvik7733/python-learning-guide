@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Alice Johnson",
+    "email": "alice@email.com",
+    "age": 25,
+    "registration_date": "2025-08-13 11:10:52"
+  },
+  {
+    "name": "Bob Smith",
+    "email": "bob@email.com",
+    "age": 30,
+    "registration_date": "2025-08-13 11:10:52"
+  }
+]
