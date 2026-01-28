@@ -1,0 +1,62 @@
+{
+  "model_name": "iris_classifier",
+  "version": "1.0",
+  "description": "Logistic regression with standard scaling for Iris classification",
+  "created_at": "2026-01-28T14:47:39.309973",
+  "model_type": "Pipeline",
+  "parameters": {
+    "memory": null,
+    "steps": "[('scaler', StandardScaler()), ('classifier', LogisticRegression(max_iter=1000, random_state=42))]",
+    "transform_input": null,
+    "verbose": false,
+    "scaler": "StandardScaler()",
+    "classifier": "LogisticRegression(max_iter=1000, random_state=42)",
+    "scaler__copy": true,
+    "scaler__with_mean": true,
+    "scaler__with_std": true,
+    "classifier__C": 1.0,
+    "classifier__class_weight": null,
+    "classifier__dual": false,
+    "classifier__fit_intercept": true,
+    "classifier__intercept_scaling": 1,
+    "classifier__l1_ratio": null,
+    "classifier__max_iter": 1000,
+    "classifier__multi_class": "deprecated",
+    "classifier__n_jobs": null,
+    "classifier__penalty": "l2",
+    "classifier__random_state": 42,
+    "classifier__solver": "lbfgs",
+    "classifier__tol": 0.0001,
+    "classifier__verbose": 0,
+    "classifier__warm_start": false
+  },
+  "training_data": {
+    "n_train_samples": 120,
+    "n_test_samples": 30,
+    "n_features": 4,
+    "n_classes": 3
+  },
+  "performance": {
+    "train_accuracy": 0.9583333333333334,
+    "test_accuracy": 0.9333333333333333,
+    "confusion_matrix": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        9,
+        1
+      ],
+      [
+        0,
+        1,
+        9
+      ]
+    ]
+  },
+  "sklearn_version": "1.0+",
+  "python_version": "3.9+"
+}

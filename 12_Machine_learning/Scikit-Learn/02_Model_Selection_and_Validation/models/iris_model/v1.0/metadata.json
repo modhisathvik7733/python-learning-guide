@@ -1,0 +1,8 @@
+{
+  "model_type": "LogisticRegression",
+  "performance": {
+    "test_accuracy": 0.9666666666666667
+  },
+  "version": "1.0",
+  "created_at": "2026-01-28T14:47:39.961862"
+}
